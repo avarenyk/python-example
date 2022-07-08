@@ -6,7 +6,7 @@ def even(a: int, b: int) -> int:
         raise TypeError(f'Argument "b" must be integer, not {type(b)}')
     if a > b:
         a, b = b, a
-    for i in range (a+1,b):
+    for i in range(a+1, b):
         if i % 2 == 0:
             num.append(str(i))
     return ", " . join(num)

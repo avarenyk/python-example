@@ -6,4 +6,4 @@ def cut_h(a: str):
     for i in range(len(a)):
         if a[i] == 'h':
             q.append(i)
-    return a.replace(a[q[0]:(q[-1])+1],'')
+    return a.replace(a[q[0]:(q[-1])+1], '')

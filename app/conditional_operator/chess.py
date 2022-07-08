@@ -17,3 +17,4 @@ def chess(a: str, b: int, c: str, d: int) -> str:
         return 'Yes'
     else:
         return 'No'
+

@@ -9,4 +9,4 @@ def max(a: int, b: int) -> int:
         y = b
     else:
         y = 'a equal b'
-    return str(y)
+    return y
