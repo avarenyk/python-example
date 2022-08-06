@@ -5,3 +5,8 @@ def plus(a: int, b: int) -> int:
         raise TypeError(f'Argument "b" must be integer, not {type(b)}')
 
     return a + b
+
+
+def minus(a: int, b: int) -> int:
+    pass
+
